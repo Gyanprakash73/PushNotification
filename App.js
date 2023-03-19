@@ -24,7 +24,7 @@ const App = () => {
           // if (!!res && res == 'granted') {
           requestUserPermission();
           notificationListeners();
-          // }
+          // }//
         })
         .catch(error => {
           alert('something wrong');
